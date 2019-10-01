@@ -1,0 +1,33 @@
+{
+  "name": "scl011-hackathon-peliculas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.html",
+  "scripts": {
+    "htmlhint": "htmlhint src/*.html test/*.html",
+    "eslint": "eslint --ext .js src/ test/",
+    "pretest": "npm run eslint && npm run htmlhint",
+    "test": "nyc mocha"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "coverage": "^0.4.1",
+    "eslint-plugin-jest": "^22.1.2",
+    "htmlhint": "^0.10.1",
+    "mocha": "^5.2.0",
+    "nyc": "^14.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceciliaGeraldo/SCL011-Hackathon-Peliculas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ceciliaGeraldo/SCL011-Hackathon-Peliculas/issues"
+  },
+  "homepage": "https://github.com/ceciliaGeraldo/SCL011-Hackathon-Peliculas#readme",
+  "devDependencies": {
+    "eslint": "^6.5.1"
+  }
+}
