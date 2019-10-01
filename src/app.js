@@ -1,3 +1,5 @@
+
+
 document.getElementById('btn-search').addEventListener('click', function(){
 	const titleSearch = document.getElementById('searchBar').value;
     const request = new Request('http://www.omdbapi.com/?i=tt3896198&apikey=9e07827a&s='+titleSearch);
@@ -25,4 +27,5 @@ document.getElementById('btn-search').addEventListener('click', function(){
 			searchEl.appendChild(movieContainer);
 		}
 	});
+
 });

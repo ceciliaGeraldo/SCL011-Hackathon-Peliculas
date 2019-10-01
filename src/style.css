@@ -1,0 +1,7 @@
+img {
+    display: inline-block;
+ }
+
+  .selector-for-some-widget {
+    box-sizing: content-box;
+  }
