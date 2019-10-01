@@ -5,3 +5,14 @@ img {
   .selector-for-some-widget {
     box-sizing: content-box;
   }
+
+.option-selector {
+    color: green;
+    background: black;
+}
+
+.navbar-search{
+  
+   display: inline;
+   justify-content: flex-start;
+}
