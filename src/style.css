@@ -1,0 +1,43 @@
+img {
+    display: inline-block;
+ }
+
+  .selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+.option-selector {
+    color: green;
+    background: black;
+}
+
+.navbar-search{
+  
+   display: inline;
+   justify-content: flex-start;
+}
+
+.ec-stars-wrapper {
+
+	font-size: 0;
+
+	display: inline-block;
+}
+.ec-stars-wrapper a {
+	text-decoration: none;
+	display: inline-block;
+
+	font-size: 32px;
+	font-size: 2rem;
+	
+	color: #888;
+}
+
+.ec-stars-wrapper:hover a {
+	color: rgb(39, 130, 228);
+}
+
+.ec-stars-wrapper > a:hover ~ a {
+	color: #888;
+}
+
