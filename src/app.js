@@ -1,28 +1,54 @@
+
 document.getElementById('btn-search').addEventListener('click', function(){
 	const titleSearch = document.getElementById('searchBar').value;
-    const request = new Request('http://www.omdbapi.com/?i=tt3896198&apikey=9e07827a&s='+titleSearch);
-   
+    const request = new Request('http://www.omdbapi.com/?s='+titleSearch+ '&apikey=9e07827a');
+	//('http://www.omdbapi.com?i=' + movieTitle + '&plot=full' + '&apikey=3a181f1c')
 	fetch(request).then(function(result){
 		return result.json();
 	}).then(function(data){
-		var searchEl = document.getElementById('searchResult');
-		var len = data.Search.length;
-		for(var i = 0; i < len; i++){
-			var movieContainer = document.createElement('div');
-			movieContainer.className = 'search-result--item';
-			var titleEl = document.createElement('div');
-			titleEl.innerText = data.Search[i].Title;
-			var yearEl = document.createElement('div');
-			yearEl.innerText = data.Search[i].Year;
-			var typeEl = document.createElement('div');
-			typeEl.innerText = data.Search[i].Type;
-			var posterEl = document.createElement('img');
-			posterEl.src = data.Search[i].Poster;
-			movieContainer.appendChild(posterEl);
-			movieContainer.appendChild(titleEl);
-			movieContainer.appendChild(yearEl);
-			movieContainer.appendChild(typeEl);
+		const searchEl = document.getElementById('searchResult');
+		const len = data.Search.length;
+		for(let i = 0; i < len; i++){
+			const movieContainer = document.createElement('div');
+			//movieContainer.className = 'search-result--item';
+			const movieTitle = document.createElement('div');
+			movieTitle.innerText = data.Search[i].Title;
+			const movieYear = document.createElement('div');
+			movieYear.innerText = data.Search[i].Year;
+			const movieType = document.createElement('div');
+			movieType.innerText = data.Search[i].Type;
+			const moviePoster = document.createElement('img');
+			moviePoster.src = data.Search[i].Poster;
+			
+			const buttonMore = document.createElement('button');
+			buttonMore.textContent = ("+ Ver más");
+			buttonMore.addEventListener('click', ()=>{
+
+					const movieID = data.Search[i].imdbID;
+					fetch('http://www.omdbapi.com/?i='+movieID+'&plot=full'+'&apikey=9e07827a&')
+					.then(result => result.json())
+					.then(data => {
+						document.getElementById("container").innerHTML +=
+						`<div class="bestResult">
+						<img class="poster" src=${data.Poster}>
+						<h2 class="title">${data.Title}</h2>
+						<p class="plot">${data.Plot}</p>
+						<p class="actors">${data.Actors}</p>
+						<p class="genre">${data.Genre}</p>
+						<p class="runtime">${data.Runtime}</p>
+						<p class="runtime">${data.Runtime}</p></div>`
+					})
+				})		
+			
+			movieContainer.appendChild(moviePoster);
+			movieContainer.appendChild(movieTitle);
+			movieContainer.appendChild(movieYear);			
+			movieContainer.appendChild(movieType);
+			movieContainer.appendChild(buttonMore);
 			searchEl.appendChild(movieContainer);
+			console.log(data.Search[i]);
 		}
+		
+		
 	});
 });
