@@ -49,6 +49,16 @@ document.getElementById('btn-search').addEventListener('click', function () {
 
 	});
 });
+
+/*
+<div class="ec-stars-wrapper">
+						<a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
+						<a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
+						<a href="#" data-value="3" title="Votar con 3 estrellas">&#9733;</a>
+						<a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
+						<a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
+					  </div>
+*/
 window.addEventListener('load', () => {
 
 	const request = new Request('https://api.themoviedb.org/3/discover/movie?api_key=97d773c470d7cb0726fe1da76931493c&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1')
@@ -110,23 +120,23 @@ function makePopularRequest(x) {
 
 	});
 
-	
+
 }
 
 document.getElementById('btnComedy').addEventListener('click', () => {
 	document.getElementById('allCards').style.display = 'none';
-	categoryContainer.innerHTML="";
+	categoryContainer.innerHTML = "";
 	makePopularRequest(35);
 });
 
 document.getElementById('btnSciFi').addEventListener('click', () => {
 	document.getElementById('allCards').style.display = 'none';
-	categoryContainer.innerHTML="";
+	categoryContainer.innerHTML = "";
 	makePopularRequest(878);
 });
 
 document.getElementById('btnThriller').addEventListener('click', () => {
 	document.getElementById('allCards').style.display = 'none';
-	categoryContainer.innerHTML="";
+	categoryContainer.innerHTML = "";
 	makePopularRequest(53);
 });
