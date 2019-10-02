@@ -18,9 +18,9 @@ Definimos nuestra usuario perosonas de 20 a 40 años, Además se rescata que su 
 Frente a esto nace nuestra app **GiveStars** en la que el usuario puede ver información de sus películas buscar por títulos y lo más importante ver  su puntuación en **estrellas** dadas por usuarios anteriores ver opiniones darle **estrellas** y dejar su opinión para que sea vista por demás usuarios.
 
 Diseñamos un prototipo de alta fidelidad 
->(imagen)
->(descripción)
-
+>
+>modelo alta fidelidad en figma
+<a href="https://ibb.co/crQpwvX"><img src="https://i.ibb.co/HHqMC2p/modelo-alta.png" alt="modelo-alta" border="0"></a>
 ## Testeo en Usuarios
 
 >video
