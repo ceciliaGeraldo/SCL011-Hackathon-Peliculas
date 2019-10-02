@@ -65,3 +65,12 @@ https://www.figma.com/proto/Ht0JzRobn0DITuHGKereyV/Hackathon-Peliculas?node-id=1
 >video
 
 
+## Colaboradoras en este proyecto:
+
+Front:
+- Cecilia Geraldo
+- Constanza Zarate
+
+Ux:
+- Marcia Alegría
+- Evelyn Castro
