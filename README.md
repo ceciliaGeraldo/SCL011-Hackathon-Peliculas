@@ -47,11 +47,14 @@ Diseño de logo
 
 
 Diseñamos un prototipo de alta fidelidad
- 
+
 >
 >modelo alta fidelidad en figma
 <a href="https://ibb.co/crQpwvX"><img src="https://i.ibb.co/HHqMC2p/modelo-alta.png" alt="modelo-alta" border="0"></a>
+
 ## Testeo en Usuarios
+
+<a href="https://ibb.co/mz7q189"><img src="https://i.ibb.co/JkP70Qv/celular.png" alt="celular" border="0"></a>
 
 >video
 
