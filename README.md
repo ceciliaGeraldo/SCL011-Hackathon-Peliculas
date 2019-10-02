@@ -31,8 +31,23 @@ Definimos nuestra usuario perosonas de 20 a 40 años, Además se rescata que su 
 
 Frente a esto nace nuestra app **GiveStars** en la que el usuario puede ver información de sus películas buscar por títulos y lo más importante ver  su puntuación en **estrellas** dadas por usuarios anteriores ver opiniones darle **estrellas** y dejar su opinión para que sea vista por demás usuarios.
 
+A continuación enlace de planificación en trello
+>https://trello.com/b/x9FrSapc/hackaton-api-peliculas
 
-Diseñamos un prototipo de alta fidelidad 
+
+
+<a href="https://ibb.co/NWSDgNh"><img src="https://i.ibb.co/3Sz65FX/trelloa.png" alt="trelloa" border="0"></a>
+
+
+
+Diseño de logo
+
+
+><a href="https://imgbb.com/"><img src="https://i.ibb.co/pvBL2nd/9cbd06c6-1468-4e9f-a5af-f3f0f4e2dad8.jpg" alt="9cbd06c6-1468-4e9f-a5af-f3f0f4e2dad8" border="0"></a>
+
+
+Diseñamos un prototipo de alta fidelidad
+ 
 >
 >modelo alta fidelidad en figma
 <a href="https://ibb.co/crQpwvX"><img src="https://i.ibb.co/HHqMC2p/modelo-alta.png" alt="modelo-alta" border="0"></a>
