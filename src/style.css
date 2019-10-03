@@ -1,0 +1,11 @@
+body {
+    
+    text-align: center;
+}
+
+img#logo {
+    /* size: 15rem; */
+    width: 15rem;
+    height: 15rem;
+    justify-content: center;
+}
