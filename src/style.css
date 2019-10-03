@@ -1,6 +1,14 @@
 body {
     
     text-align: center;
+    background-color: rgb(29, 29, 77);
+    background-image: url("../src/images/fondoprincipal.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+
 }
 
 img#logo {
