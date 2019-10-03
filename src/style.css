@@ -14,11 +14,6 @@ input {
     justify-content: center;
 }
 
-#btn-search{
-    display:flex; 
-    flex-direction: row;
-    margin: 5%;
-}
 
 body {
     text-align: center;
@@ -27,8 +22,8 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-    height: 120%;
+    background-size: 120%;
+  
     
 
 }
