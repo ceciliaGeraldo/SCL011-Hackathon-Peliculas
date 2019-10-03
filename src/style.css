@@ -1,5 +1,3 @@
-
-
 input {
     float: right;
     margin-right: 3rem;
@@ -7,15 +5,13 @@ input {
 
 #searchBar {
  
-     
-      border: 2px solid #fff;
-      border-radius: 10px;
-      font size: 18px;
-           outline: none;
-   
-      text-align: center;
-      opacity: 0.6;
-      justify-content: center;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    outline: none;
+    text-align: center;
+    opacity: 0.6;
+    justify-content: center;
 }
 
 
