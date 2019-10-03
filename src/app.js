@@ -1,5 +1,6 @@
 
 const categoryContainer = document.getElementById('popularByCategory');
+
 document.getElementById('btn-search').addEventListener('click', function () {
 	const titleSearch = document.getElementById('searchBar').value;
 	const request = new Request('http://www.omdbapi.com/?s=' + titleSearch + '&apikey=9e07827a');
@@ -125,19 +126,19 @@ function makePopularRequest(x) {
 }
 
 document.getElementById('btnComedy').addEventListener('click', () => {
-	document.getElementById('allCards').style.display = 'none';
+	//document.getElementById('allCards').style.display = 'none';
 	categoryContainer.innerHTML = "";
 	makePopularRequest(35);
 });
 
 document.getElementById('btnSciFi').addEventListener('click', () => {
-	document.getElementById('allCards').style.display = 'none';
+	//document.getElementById('allCards').style.display = 'none';
 	categoryContainer.innerHTML = "";
 	makePopularRequest(878);
 });
 
 document.getElementById('btnThriller').addEventListener('click', () => {
-	document.getElementById('allCards').style.display = 'none';
+	//ocument.getElementById('allCards').style.display = 'none';
 	categoryContainer.innerHTML = "";
 	makePopularRequest(53);
 });

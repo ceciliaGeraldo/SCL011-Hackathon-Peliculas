@@ -1,73 +1,78 @@
 <!DOCTYPE html>
- <html lang="es"> 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>GiveStars</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-        <script src="https://kit.fontawesome.com/f3794e47ce.js" crossorigin="anonymous"></script>
-    </head>
-    <header class="wrapper">
+<html lang="es">
 
-    
-     <!-- SearchBar, edit with css header -->
-       <section class="searchSection">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>GiveStars</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/f3794e47ce.js" crossorigin="anonymous"></script>
+</head>
+<header class="wrapper">
 
-        <input id="searchBar" type="text" placeholder="Search">
-       
-        <button id="btn-search"><i class="fas fa-arrow-right"></i></button>
 
-      </section>
-    
+  <!-- SearchBar, edit with css header -->
+  <section class="searchSection">
 
-    </header>
-   
-    
- 
+    <input id="searchBar" type="text" placeholder="Search">
 
-    <body>
-          <!--Logo header-->
-       <div class="Logo-AllMovies">
-          <a href="index.html">
-              <img src="https://i.ibb.co/WfDQsvB/7414-Convertido.png" id="logo" width="200rem" height="200rem" alt="GiveStars" >
-          </a>
-          
-    
-         <!-- Este boton va abajo del logo y trae todas las peliculas en otra pagina -->
-         <a href="movies.html"><input type="button" id="btn-movies" value="All Movies"></a>
-        
-        </div>
-        
+    <button id="btn-search"><i class="fas fa-arrow-right"></i></button>
+
+  </section>
+
+
+</header>
+
+
+
+
+<body>
+  <!--Logo header-->
+  <div class="Logo-AllMovies">
+    <a href="index.html">
+      <img src="https://i.ibb.co/WfDQsvB/7414-Convertido.png" id="logo" width="200rem" height="200rem" alt="GiveStars">
+    </a>
+
+
+    <!-- Este boton va abajo del logo y trae todas las peliculas en otra pagina -->
+    <a href="movies.html"><input type="button" id="btn-movies" value="All Movies"></a>
+
+  </div>
+
 
   <!-- Button por genero, solo envia por seleccion  -->
-      
-        <section>
-          <div class="btnGender">
-            <button id="btnComedy">Comedy</button>
-            <button id="btnSciFi">Sci-Fi</button>
-            <button id="btnThriller">Thriller</button>
-            </div>
-        </section>
+
+  <section>
+    <div class="btnGender">
+      <button id="btnComedy">Comedy</button>
+      <button id="btnSciFi">Sci-Fi</button>
+      <button id="btnThriller">Thriller</button>
+    </div>
+  </section>
+
+  <!-- Galeria de los más populares -->
+  <section id="popularByCategory">
+
+  </section>
+  <!-- Acá se ve los resultados de la busqueda por barra -->
+  <div id="searchResult">
 
 
-        <!-- Acá se ve los resultados de la busqueda por barra -->
-        <div id="searchResult">
-    
-          
-        </div>
-        <!-- Este es esperandamente el modal -->
-        <div id="container">
-    
-    
-        </div>
+  </div>
+  <!-- Este es esperandamente el modal -->
+  <div id="container">
 
-  
-            
-          </body>
-          
 
-        <script src="app.js" ></script>
-        <script src="data.js"></script>
-    </body>
+  </div>
+
+
+
+</body>
+
+
+<script src="app.js"></script>
+<script src="data.js"></script>
+</body>
+
 </html>
