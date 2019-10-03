@@ -80,3 +80,73 @@ input#btn-movies {
     opacity: 0.9;
     justify-content: center;
 }
+
+/* Botones por genero */
+
+#btnComedy {
+    display: block;
+    text-align: center;
+    background-image: url(https://i.ibb.co/KsDkCWr/best-90s-comedy-movies.jpg);
+    color: white;
+    outline: none;
+    padding-top: 10rem;
+    padding-bottom: 0.5rem;
+    padding-left: 9rem;
+    padding-right: 8rem;
+    justify-content: center;
+    margin-left: 6rem;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font size: 18px;
+    outline: none;
+    text-align: center;
+    opacity: 0.9;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+
+#btnSciFi{
+    display: block;
+    text-align: center;
+    background-image: url(https://i.ibb.co/KsDkCWr/best-90s-comedy-movies.jpg);
+    color: white;
+    outline: none;
+    padding-top: 10rem;
+    padding-bottom: 0.5rem;
+    padding-left: 9rem;
+    padding-right: 8rem;
+    justify-content: center;
+    margin-left: 6rem;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font size: 18px;
+    outline: none;
+    text-align: center;
+    opacity: 0.9;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+
+#btnThriller{
+    display: block;
+    text-align: center;
+    background-image: url(https://i.ibb.co/KsDkCWr/best-90s-comedy-movies.jpg);
+    color: white;
+    outline: none;
+    padding-top: 10rem;
+    padding-bottom: 0.5rem;
+    padding-left: 9rem;
+    padding-right: 8rem;
+    justify-content: center;
+    margin-left: 6rem;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font size: 18px;
+    outline: none;
+    text-align: center;
+    opacity: 0.9;
+    justify-content: center;
+    margin-top: 2rem;
+}
