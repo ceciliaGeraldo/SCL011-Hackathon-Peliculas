@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+ <html lang="es"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <section>
+        <img id="logo" src="https://i.ibb.co/WfDQsvB/7414-Convertido.png">
+      </section>
+
+      <!-- SearchBar, edit with css header -->
+        <section>
+            <input id="searchBar" type="text">
+            <button id="btn-search">Buscar</button>
+        </section>
+
+        <!-- Button por genero, solo envia por seleccion  -->
+        <section>
+            <button id="btnComedy">Comedy</button>
+            <button id="btnSciFi">Sci-Fi</button>
+            <button id="btnThriller">Thriller</button>
+        </section>
+
+        <!-- Galeria de los más populares -->
+        <section id="popularByCategory">
+    
+        </section>
+       
+        <!-- Selector para ordenar  -->
+        <select id="orderSelector">
+            <option value="#" label="Ordenar por"></option>
+            <option value="alphaAsc" label="A - Z"></option>
+            <option value="alphaDesc" label="Z -A"></option>
+            <option value="yearAsc" label="Año Ascendente"></option>
+            <option value="yearDesc" label="Año Descendente"></option>
+          </select>
+
+        <!-- Acá se ve los resultados de la busqueda por barra -->
+        <div id="searchResult">
+    
+          
+        </div>
+        <!-- Este es esperandamente el modal -->
+        <div id="container">
+    
+        </div>
+        <!-- Acá se ven todas las cartas -->
+        <div id="allCards">
+    
+        </div>
+
+        <script src="app.js" ></script>
+        <script src="data.js"></script>
+    </body>
+</html>
