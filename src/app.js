@@ -51,13 +51,7 @@ document.getElementById('btn-search').addEventListener('click', function () {
 });
 
 /*
-<div class="ec-stars-wrapper">
-						<a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
-						<a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
-						<a href="#" data-value="3" title="Votar con 3 estrellas">&#9733;</a>
-						<a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
-						<a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
-					  </div>
+
 */
 window.addEventListener('load', () => {
 
@@ -100,6 +94,13 @@ const createCard = (data) => {
 				<h2 class="title">${data[i].original_title}</h2>
 				<p class="plot">${data[i].overview}</p>
 				<p class="runtime">${data[i].vote_average} /10</p>
+				<div class="ec-stars-wrapper">
+						<a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
+						<a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
+						<a href="#" data-value="3" title="Votar con 3 estrellas">&#9733;</a>
+						<a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
+						<a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
+				</div>
 			</div>`
 
 	}
