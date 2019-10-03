@@ -1,36 +1,82 @@
-input {
-    float: right;
-    margin-right: 3rem;
-}
+/* Seccion buscar header */
+
 
 #searchBar {
  
+     
     border: 2px solid #fff;
     border-radius: 10px;
-    font-size: 18px;
+    font size: 18px;
     outline: none;
+ 
     text-align: center;
     opacity: 0.6;
     justify-content: center;
 }
 
 
+section.searchSection {
+    display: block;
+    margin: 1rem;
+    float: right;
+}
+
+button#btn-search {
+    background: transparent;
+    border: none;
+    
+}
+
+
+.fa-arrow-right:before {
+    content: "\f061";
+    color: #a2a1b3;
+}
+
+
+/* Diseño general */
+
 body {
-    text-align: center;
+ 
     background-color: rgb(29, 29, 77);
     background-image: url("../src/images/fondoprincipal.jpeg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 120%;
-  
-    
-
 }
 
+/* LOGO MAS VER TODAS LAS PELICULAS */
 img#logo {
-    /* size: 15rem; */
-    width: 15rem;
-    height: 15rem;
+    
+    margin-left: 10rem;
+    
+}
+
+input#btn-movies {
+    display: block;
+    text-align: center;
+    background: cornflowerblue;
+    color: white;
+}
+
+input#btn-movies {
+    display: block;
+    text-align: center;
+    background: cornflowerblue;
+    color: white;
+    outline: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    justify-content: center;
+    margin-left: 6rem;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font size: 18px;
+    outline: none;
+    text-align: center;
+    opacity: 0.9;
     justify-content: center;
 }
