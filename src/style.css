@@ -24,3 +24,22 @@ input {
     margin: 5%;
 }
 
+body {
+    text-align: center;
+    background-color: rgb(29, 29, 77);
+    background-image: url("../src/images/fondoprincipal.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 120%;
+    
+
+}
+
+img#logo {
+    /* size: 15rem; */
+    width: 15rem;
+    height: 15rem;
+    justify-content: center;
+}
