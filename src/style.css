@@ -1,11 +1,26 @@
-body {
-    
-    text-align: center;
+
+
+input {
+    float: right;
+    margin-right: 3rem;
 }
 
-img#logo {
-    /* size: 15rem; */
-    width: 15rem;
-    height: 15rem;
-    justify-content: center;
+#searchBar {
+ 
+     
+      border: 2px solid #fff;
+      border-radius: 10px;
+      font size: 18px;
+           outline: none;
+   
+      text-align: center;
+      opacity: 0.6;
+      justify-content: center;
 }
+
+#btn-search{
+    display:flex; 
+    flex-direction: row;
+    margin: 5%;
+}
+
